@@ -6,6 +6,9 @@ A miui theme for ingress player.
 
 # 0：简介：
     一款ingress风格的MIUI主题。
+
+# 1:分支说明
+    dev：开发版本。
     
 # 1：贡献：
     欢迎各位ingress党对主题贡献力量。毕竟，这是我们自己的主题～
