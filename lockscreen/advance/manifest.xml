@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lockscreen version="1" frameRate="30" screenWidth="1080">
+
+	<Image src="bg.jpg" x="0" y="0" />
+	<Time x="350" y="200" align="center" space="20" src="t.png" />
+	<DateTime x="350" y="440" align="center" format="M月d日" size="36" color="#ffffff" alpha="220" />
+	<DateTime x="350" y="490" align="center" format="yyyy已经过去D天啦" size="36" color="#ffffff" alpha="220" />
+	
+	
+	
+	<Unlocker name="unlocker">
+		<StartPoint x="390" y="1670" w="300" h="200" >
+			<NormalState>
+				<Image x="440" y="1700+#unlocker.move_y" src="unlocker_normal.png" alpha="120" />
+			</NormalState>
+			<PressedState> 
+				<Image x="440" y="1700+#unlocker.move_y" src="unlocker_pressed.png" alpha="120" />
+			</PressedState>
+		</StartPoint>
+		
+		<EndPoint x="390" y="1220" w="300" h="300">
+			<Path tolerance="800">
+				<Position x="390" y="1670" />
+				<Position x="390" y="1270" />
+			</Path>			
+		</EndPoint>
+	</Unlocker>
+
+	
+</Lockscreen>

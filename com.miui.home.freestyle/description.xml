@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<scene width="1080" name="ingress">
+<screen type="background" width="1080" home="0">
+<sprite left="0" top="0" _name="" rotation="0.0" scale_x="0.0" scale_y="0.0" width="0" height="0" appearance="stage_images/bg.png" function="" />
+</screen>
+<screen type="drift" width="1080" home="0">
+<sprite left="450" top="870" _name="" rotation="0.0" scale_x="0.0" scale_y="0.0" width="0" height="0" appearance="skins/main.png" function="drawer:" />
+</screen>
+<screen type="foreground" width="1080" home="0" />
+<screen type="dock" width="1080" home="0" />
+</scene>
